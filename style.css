@@ -78,6 +78,11 @@ footer {
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .flex-main{
     display: flex;
@@ -92,4 +97,8 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+}
+
+nav ul {
+    display: flex;
 }
