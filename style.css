@@ -78,3 +78,8 @@ footer {
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
